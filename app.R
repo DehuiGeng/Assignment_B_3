@@ -20,7 +20,7 @@ ui <- fluidPage(
        )
      ), 
      mainPanel(
-       colourInput("col", "Choose colour", "pink"),
+       colourInput("col", "Choose colour", "#FFC0CB"),
        plotOutput("my_plot"), 
        tableOutput("my_table")
      )
